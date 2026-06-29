@@ -1,0 +1,10 @@
+services:
+  trip-service:
+    build: ./trip-service
+    ports:
+      - "8000:8000"
+
+  ai-service:
+    build: ./ai-service
+    ports:
+      - "8001:8000"
